@@ -1,3 +1,4 @@
+
 using FMODUnity;
 using System.Collections;
 using UnityEditor;
@@ -19,7 +20,7 @@ public class Doors : MonoBehaviour, IInteractable
     // FMOD - Dźwięk drzwi.
     private FMOD.Studio.EventInstance doorsSoundInstance;
     public EventReference doorsEvent;
-    
+
     // FMOD - Snapshot do wnętrza pokoju.
     private FMOD.Studio.EventInstance insideRoomSnapshot;
     public EventReference insideRoomSnap;
@@ -72,14 +73,14 @@ public class Doors : MonoBehaviour, IInteractable
         {
             doorsSoundInstance.release();
         }
-        
+
         doorsSoundInstance = RuntimeManager.CreateInstance(doorsEvent);
         doorsSoundInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform));
-        
+
         // Ustawia parametr "Doors" w zależności od stanu drzwi.
         string parameterLabel = doorsOpened ? "Open" : "Close";
         doorsSoundInstance.setParameterByNameWithLabel("Doors", parameterLabel);
-        
+
         doorsSoundInstance.start();
     }
 
