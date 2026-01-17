@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639041895192792472
+  lastModified: 639042456655723800
   FileSizes:
   - Name: Desktop
-    Value: 1634
+    Value: 1730
   Exists: 1
 --- !u!114 &-8740365286185477918
 MonoBehaviour:
@@ -47,6 +47,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 106900
+--- !u!114 &-8345491904318144443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/sfx_ambient_forest2D
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/sfx_ambient_forest2D
+  Guid:
+    Data1: -701386094
+    Data2: 1258222194
+    Data3: -162403914
+    Data4: -260774253
+  Banks:
+  - {fileID: 1206202545694078704}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49500
 --- !u!114 &-7978803783359331542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,6 +235,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 77000
+--- !u!114 &-187270748884571460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/sfx_tavrn_music2D
+  m_EditorClassIdentifier: 
+  Path: event:/Music/sfx_tavrn_music2D
+  Guid:
+    Data1: 1799842215
+    Data2: 1115465741
+    Data3: 1306140042
+    Data4: 342259349
+  Banks:
+  - {fileID: 1206202545694078704}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 74000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,13 +295,15 @@ MonoBehaviour:
   - {fileID: 346741340060448680}
   - {fileID: 8028460382860886443}
   - {fileID: 4555359239342904407}
+  - {fileID: -8345491904318144443}
+  - {fileID: -187270748884571460}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7147472851709712997}
   StringsBanks:
   - {fileID: -8987264877617199044}
   cacheVersion: 131856
-  cacheTime: 639041897013249723
+  cacheTime: 639042459042350267
   SerializableEventsDict:
   - key: event:/Ambient/sfx_ambient_tavern
     index: 0
@@ -281,6 +337,10 @@ MonoBehaviour:
     index: 14
   - key: event:/Interaction/sfx_tavern_ojciecpolecial
     index: 15
+  - key: event:/Ambient/sfx_ambient_forest2D
+    index: 16
+  - key: event:/Music/sfx_tavrn_music2D
+    index: 17
 --- !u!114 &30260625850914211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,7 +449,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 6.8
-  Length: 77538
+  Length: 74000
 --- !u!114 &1206202545694078704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,10 +465,10 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Tavern.bank
   Name: Tavern
   StudioPath: bank:/Tavern
-  lastModified: 639041897013249723
+  lastModified: 639042459042350267
   FileSizes:
   - Name: Desktop
-    Value: 11491360
+    Value: 11496256
   Exists: 1
 --- !u!114 &1398420924245034953
 MonoBehaviour:
@@ -613,7 +673,7 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639041895192778164
+  lastModified: 639042456655713458
   FileSizes:
   - Name: Desktop
     Value: 1074
