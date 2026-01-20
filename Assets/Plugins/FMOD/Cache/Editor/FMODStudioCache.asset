@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639042456655723800
+  lastModified: 639045316004458672
   FileSizes:
   - Name: Desktop
-    Value: 1730
+    Value: 2626
   Exists: 1
 --- !u!114 &-8740365286185477918
 MonoBehaviour:
@@ -101,6 +101,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 6.4
   Length: 49500
+--- !u!114 &-7672925274020855038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Room
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Room
+  Guid:
+    Data1: 502382736
+    Data2: 1312984518
+    Data3: 500713626
+    Data4: -757321514
+  Banks:
+  - {fileID: 7147472851709712997}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4421309041301611305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/EQ
+  m_EditorClassIdentifier: 
+  Path: snapshot:/EQ
+  Guid:
+    Data1: -956445170
+    Data2: 1083326977
+    Data3: 1513535382
+    Data4: -290020069
+  Banks:
+  - {fileID: 7147472851709712997}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-3836811848554201785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +208,33 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &-3790476330560515251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_knife
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_knife
+  Guid:
+    Data1: -1041329219
+    Data2: 1337400704
+    Data3: 1495431864
+    Data4: 1212044318
+  Banks:
+  - {fileID: 1206202545694078704}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2767078594347890482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,13 +378,21 @@ MonoBehaviour:
   - {fileID: 4555359239342904407}
   - {fileID: -8345491904318144443}
   - {fileID: -187270748884571460}
+  - {fileID: -4421309041301611305}
+  - {fileID: 7964189635616846923}
+  - {fileID: -7672925274020855038}
+  - {fileID: 1035933114742100376}
+  - {fileID: 4236604439376520718}
+  - {fileID: 2537331719439145390}
+  - {fileID: 8600302505841756115}
+  - {fileID: -3790476330560515251}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7147472851709712997}
   StringsBanks:
   - {fileID: -8987264877617199044}
   cacheVersion: 131856
-  cacheTime: 639042459042350267
+  cacheTime: 639045337885285507
   SerializableEventsDict:
   - key: event:/Ambient/sfx_ambient_tavern
     index: 0
@@ -341,6 +430,22 @@ MonoBehaviour:
     index: 16
   - key: event:/Music/sfx_tavrn_music2D
     index: 17
+  - key: snapshot:/EQ
+    index: 18
+  - key: snapshot:/Outside
+    index: 19
+  - key: snapshot:/Room
+    index: 20
+  - key: event:/Interaction/sfx_tavern_fireon
+    index: 21
+  - key: event:/Interaction/sfx_tavern_fireoff
+    index: 22
+  - key: event:/Interaction/sfx_tavern_barrel
+    index: 23
+  - key: event:/Interaction/sfx_tavern_glass
+    index: 24
+  - key: event:/Interaction/sfx_tavern_knife
+    index: 25
 --- !u!114 &30260625850914211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,6 +555,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 6.8
   Length: 74000
+--- !u!114 &1035933114742100376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_fireon
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_fireon
+  Guid:
+    Data1: 1563222880
+    Data2: 1310404990
+    Data3: -1938736768
+    Data4: 1734578052
+  Banks:
+  - {fileID: 1206202545694078704}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1206202545694078704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,10 +597,10 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Tavern.bank
   Name: Tavern
   StudioPath: bank:/Tavern
-  lastModified: 639042459042350267
+  lastModified: 639045337885285507
   FileSizes:
   - Name: Desktop
-    Value: 11496256
+    Value: 11818496
   Exists: 1
 --- !u!114 &1398420924245034953
 MonoBehaviour:
@@ -550,6 +682,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 806
+--- !u!114 &2537331719439145390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_barrel
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_barrel
+  Guid:
+    Data1: 939426625
+    Data2: 1112756404
+    Data3: -172356178
+    Data4: 2056042440
+  Banks:
+  - {fileID: 1206202545694078704}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4236604439376520718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_fireoff
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_fireoff
+  Guid:
+    Data1: -265620878
+    Data2: 1205943132
+    Data3: -1854696530
+    Data4: -1762540704
+  Banks:
+  - {fileID: 1206202545694078704}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4555359239342904407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,11 +859,38 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639042456655713458
+  lastModified: 639045316004422688
   FileSizes:
   - Name: Desktop
-    Value: 1074
+    Value: 4492
   Exists: 1
+--- !u!114 &7964189635616846923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 1523805288
+    Data2: 1282444701
+    Data3: 1224279440
+    Data4: -566214637
+  Banks:
+  - {fileID: 7147472851709712997}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &8028460382860886443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,6 +918,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 16000
+--- !u!114 &8600302505841756115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction/sfx_tavern_glass
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction/sfx_tavern_glass
+  Guid:
+    Data1: -1449920647
+    Data2: 1152250023
+    Data3: -753824111
+    Data4: 1101647843
+  Banks:
+  - {fileID: 1206202545694078704}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 0
 --- !u!114 &8789562753220710260
 MonoBehaviour:
   m_ObjectHideFlags: 0
