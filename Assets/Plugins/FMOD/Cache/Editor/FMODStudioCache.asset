@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639057225144551772
+  lastModified: 639057383135140850
   FileSizes:
   - Name: Desktop
-    Value: 2630
+    Value: 2706
   Exists: 1
 --- !u!114 &-8740365286185477918
 MonoBehaviour:
@@ -69,11 +69,11 @@ MonoBehaviour:
   - {fileID: 1206202545694078704}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 49500
+  Length: 50000
 --- !u!114 &-7978803783359331542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,19 +88,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambient/sfx_ambient_forest
   Guid:
-    Data1: 2069932568
-    Data2: 1156712203
-    Data3: 434837390
-    Data4: 1175998026
+    Data1: -1014458186
+    Data2: 1266503264
+    Data3: 567707565
+    Data4: -1182124175
   Banks:
   - {fileID: 1206202545694078704}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 6.4
-  Length: 49500
+  MaxDistance: 20
+  Length: 49000
 --- !u!114 &-7672925274020855038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +209,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3483268664875499134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_land/Footstep_Surface
+  m_EditorClassIdentifier: 
+  Name: Footstep_Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2585428768
+    data2: 1131550568
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
 --- !u!114 &-2767078594347890482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,13 +386,15 @@ MonoBehaviour:
   - {fileID: 2537331719439145390}
   - {fileID: 8600302505841756115}
   - {fileID: -3790476330560515251}
+  - {fileID: 7381818752146538410}
+  - {fileID: 8018843951649098728}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7147472851709712997}
   StringsBanks:
   - {fileID: -8987264877617199044}
   cacheVersion: 131856
-  cacheTime: 639057225145844306
+  cacheTime: 639057383137262627
   SerializableEventsDict:
   - key: event:/Ambient/sfx_ambient_tavern
     index: 0
@@ -420,6 +448,10 @@ MonoBehaviour:
     index: 24
   - key: event:/Interaction/sfx_tavern_knife
     index: 25
+  - key: event:/Player/sfx_player_heartbeat
+    index: 26
+  - key: snapshot:/Health
+    index: 27
 --- !u!114 &30260625850914211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,62 +603,10 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Tavern.bank
   Name: Tavern
   StudioPath: bank:/Tavern
-  lastModified: 639057225145844306
+  lastModified: 639057383137262627
   FileSizes:
   - Name: Desktop
-    Value: 11818592
-  Exists: 1
---- !u!114 &1398420924245034953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/sfx_player_land/Surface
-  m_EditorClassIdentifier: 
-  Name: Surface
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 848937930
-    data2: 1955965622
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Stone
-  - Wood
-  Exists: 1
---- !u!114 &1712093505819468774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/sfx_player_jump/Surface
-  m_EditorClassIdentifier: 
-  Name: Surface
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 1
-  ID:
-    data1: 848937930
-    data2: 1955965622
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Stone
-  - Wood
+    Value: 11867104
   Exists: 1
 --- !u!114 &1926691413970166403
 MonoBehaviour:
@@ -642,17 +622,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Player/sfx_player_land
   Guid:
-    Data1: -552732322
-    Data2: 1128930796
-    Data3: 2078886286
-    Data4: -1624646344
+    Data1: 2114724689
+    Data2: 1138900126
+    Data3: -1278665566
+    Data4: -762574611
   Banks:
+  - {fileID: 7147472851709712997}
   - {fileID: 1206202545694078704}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 1398420924245034953}
+  - {fileID: -3483268664875499134}
   MinDistance: 1
   MaxDistance: 20
   Length: 806
@@ -748,6 +729,32 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/sfx_player_footsteps/Footstep_Surface
+  m_EditorClassIdentifier: 
+  Name: Footstep_Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2585428768
+    data2: 1131550568
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
+--- !u!114 &5042900948458681653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_jump/Footstep_Surface
   m_EditorClassIdentifier: 
   Name: Footstep_Surface
   StudioPath: 
@@ -860,11 +867,38 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639057225144529602
+  lastModified: 639057383135120638
   FileSizes:
   - Name: Desktop
-    Value: 57792
+    Value: 87744
   Exists: 1
+--- !u!114 &7381818752146538410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/sfx_player_heartbeat
+  m_EditorClassIdentifier: 
+  Path: event:/Player/sfx_player_heartbeat
+  Guid:
+    Data1: -2124288347
+    Data2: 1231464642
+    Data3: -5522039
+    Data4: -318064097
+  Banks:
+  - {fileID: 1206202545694078704}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6730
 --- !u!114 &7964189635616846923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,6 +917,33 @@ MonoBehaviour:
     Data2: 1282444701
     Data3: 1224279440
     Data4: -566214637
+  Banks:
+  - {fileID: 7147472851709712997}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8018843951649098728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Health
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Health
+  Guid:
+    Data1: -755351104
+    Data2: 1317781519
+    Data3: -1621837184
+    Data4: 1164835778
   Banks:
   - {fileID: 7147472851709712997}
   IsStream: 0
@@ -960,17 +1021,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Player/sfx_player_jump
   Guid:
-    Data1: -168187992
-    Data2: 1079649148
-    Data3: 1350871470
-    Data4: -129867613
+    Data1: 1068519016
+    Data2: 1329317136
+    Data3: -495576434
+    Data4: -640308138
   Banks:
+  - {fileID: 7147472851709712997}
   - {fileID: 1206202545694078704}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 1712093505819468774}
+  - {fileID: 5042900948458681653}
   MinDistance: 1
   MaxDistance: 20
   Length: 501
