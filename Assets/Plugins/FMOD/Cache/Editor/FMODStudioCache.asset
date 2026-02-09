@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639057383135140850
+  lastModified: 639057394759792089
   FileSizes:
   - Name: Desktop
     Value: 2706
@@ -394,7 +394,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8987264877617199044}
   cacheVersion: 131856
-  cacheTime: 639057383137262627
+  cacheTime: 639057394761868663
   SerializableEventsDict:
   - key: event:/Ambient/sfx_ambient_tavern
     index: 0
@@ -603,7 +603,7 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Tavern.bank
   Name: Tavern
   StudioPath: bank:/Tavern
-  lastModified: 639057383137262627
+  lastModified: 639057394761868663
   FileSizes:
   - Name: Desktop
     Value: 11867104
@@ -867,10 +867,10 @@ MonoBehaviour:
   Path: ../../Audio1F/Audio1F/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639057383135120638
+  lastModified: 639057394759767008
   FileSizes:
   - Name: Desktop
-    Value: 87744
+    Value: 87968
   Exists: 1
 --- !u!114 &7381818752146538410
 MonoBehaviour:
